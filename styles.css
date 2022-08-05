@@ -320,48 +320,20 @@ background-image: linear-gradient(60deg, #29323c 0%, #2b323a7c 100%);
 /*End Project */
 
 /* Footer */
+#footer{
+    width: 100%;
+   
+}
 
-.footer-contact
-{
-    background-image: linear-gradient(60deg, #c467a4a7 0%, #2b323a7c 100%);
-    width: 60%;
-    margin-top: 80px;
-    margin-left: 80px;
-    border-radius: 20px;
-    width: 50%;
-}
-.footer-contact-topic h2
-{
-    color: rgb(236, 216, 104);
-    padding-left: 20px;
-    padding-top: 30px;
-    font-size: 30px;
-    text-shadow: 2px 2px rgb(53, 51, 51);
-}
-.footer-contact-topic-icon
-{
-padding: 0;
-}
-.footer-contact p
-{
-    color: white;
-    padding-left: 50px;
-    font-size: 22px;
-    padding-top: 20px;
-    text-shadow: 2px 2px rgb(53, 51, 51);
-}
-.footer-contact :last-child
-{
-    padding-bottom: 50px;
-}
 .foot-container
 {
     display: flex;
     justify-content: center;
     margin: 40px 0;
-    padding-bottom: 16px;
-    padding-top: 16px;
+    padding-bottom: 18px;
+    padding-top: 18px;
     background-image: linear-gradient(60deg, #3d373b 0%, #2b323a7c 100%) ;
+    width: 100%;
 }
 .foot-container ul
 {
@@ -374,5 +346,17 @@ padding: 0;
     list-style: none;
     margin: 10px;
 }
-
+.footer-contact-me{
+    margin-left: 50px;
+}
+.footer-contact-me h2{
+    color: rgba(244, 132, 237, 0.839);
+}
+.footer-contact-me-detail {
+ margin-top: 10px;
+}
+.footer-contact-me-detail p{
+    color: rgba(228, 186, 253, 0.892);
+    font-size: 18px;
+}
 /* End Footer */
