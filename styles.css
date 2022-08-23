@@ -182,7 +182,7 @@ margin-top: 15px;
 
 .head-img
 {
-    background-image: url(./images/177257483_1619846171547914_6388678815284683230_n.jpeg);
+    background-image: url(./images/boeingnormal.jpg);
     width: 25vw;
     height: 25vw;
     background-size: cover;
@@ -290,7 +290,8 @@ background-image: linear-gradient(60deg, #29323c 0%, #2b323a7c 100%);
 .project-img img
 {
     width: 100%;
-    height: auto;
+    height: 100%;
+    object-fit: cover;
 }
 .project-img :hover{
    box-shadow: 0 0 30px rgba(255, 255, 255, 0.862),
